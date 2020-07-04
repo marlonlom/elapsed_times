@@ -58,7 +58,7 @@ task("writeNewPom") {
                     setProperty("groupId", "com.github.marlonlom")
                     setProperty("inceptionYear", "2020")
                     setProperty("packaging", "jar")
-                    setProperty("description", "Kotlin utilitylibrary for, given a start and a end dates, obtain the elapsed time between the two dates in terms of years, months and days.")
+                    setProperty("description", "Kotlin utility library for, given a start and a end dates, obtain the elapsed time between the two dates in terms of years, months and days.")
                     setProperty("version", "1.0.0")
                     setProperty("url", "https://github.com/marlonlom/elapsed_times")
                     "developers" {
