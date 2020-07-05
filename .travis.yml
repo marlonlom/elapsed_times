@@ -5,6 +5,10 @@ os: linux
 dist: trusty
 jdk: oraclejdk8
 
+branches:
+  only:
+    - master
+    
 script:
   - ./gradlew clean build --scan -s
 
