@@ -4,7 +4,7 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-elapsed_time-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/4707)
 [![Download](https://api.bintray.com/packages/marlonlom/elapsed_time/elapsed_time/images/download.svg) ](https://bintray.com/marlonlom/elapsed_time/elapsed_time/_latestVersion)
 [![Build Status](https://travis-ci.org/marlonlom/elapsed_time.svg?branch=master)](https://travis-ci.org/marlonlom/elapsed_time)
-![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/marlonlom/elapsed_times?style=plastic)
+
 
 Utility library for, given a start and a end dates, obtain the elapsed time between the two dates in terms of years, months and days.
 
