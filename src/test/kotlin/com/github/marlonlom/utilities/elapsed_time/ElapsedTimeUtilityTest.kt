@@ -71,4 +71,20 @@ class ElapsedTimeUtilityTest {
         assertEquals(0, elapsed.months, "expected zero months")
         assertEquals(2, elapsed.days, "expected two days")
     }
+
+    @Test fun `Should return zero years, zero months and zero days from now, using current date`() {
+        val startDate = Calendar.getInstance()
+        val elapsed = ElapsedTimes.from(startDate.time).toNow().compare()
+        assertEquals(0, elapsed.years, "expected zero years")
+        assertEquals(0, elapsed.months, "expected zero months")
+        assertEquals(0, elapsed.days, "expected zero days")
+    }
+
+    @Test fun `Should return zero years, zero months and zero days, passing same date`() {
+        val aDate = Calendar.getInstance()
+        val elapsed = ElapsedTimes.from(aDate.time).to(aDate.time).compare()
+        assertEquals(0, elapsed.years, "expected zero years")
+        assertEquals(0, elapsed.months, "expected zero months")
+        assertEquals(0, elapsed.days, "expected zero days")
+    }
 }
