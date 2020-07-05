@@ -8,9 +8,9 @@ jdk: oraclejdk8
 branches:
   only:
     - master
-    
+
 script:
-  - ./gradlew clean build --scan -s
+  - ./gradlew clean build --scan -y
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
