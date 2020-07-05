@@ -10,7 +10,7 @@ branches:
     - master
 
 script:
-  - ./gradlew clean build --scan -y
+  - ./gradlew clean assemble --scan
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
