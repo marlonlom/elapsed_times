@@ -1,6 +1,7 @@
 package com.github.marlonlom.utilities.elapsed_time
 
 import java.text.SimpleDateFormat
+import java.util.Calendar
 import java.util.Locale
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -61,5 +62,13 @@ class ElapsedTimeUtilityTest {
         } catch (exception: Exception) {
             assertEquals("Start date must not be after the end date.", exception.message)
         }
+    }
+
+    @Test fun `Should return two days from now`() {
+        val twoDaysBeforeNow = Calendar.getInstance().apply { add(Calendar.DATE, -2) }
+        val elapsed = ElapsedTimes.from(twoDaysBeforeNow.time).toNow().compare()
+        assertEquals(0, elapsed.years, "expected zero years")
+        assertEquals(0, elapsed.months, "expected zero months")
+        assertEquals(2, elapsed.days, "expected two days")
     }
 }
