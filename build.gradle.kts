@@ -87,3 +87,10 @@ task("writeNewPom") {
         }.writeTo("${buildDir}/poms/pom.xml")
     }
 }
+
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+    }
+}
