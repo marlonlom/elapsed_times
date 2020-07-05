@@ -2,7 +2,6 @@
  
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.marlonlom/elapsed_time.svg)](http://www.mvnrepository.com/artifact/com.github.marlonlom/elapsed_time)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-elapsed_time-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/4707)
-[![Download](https://api.bintray.com/packages/marlonlom/elapsed_time/elapsed_time/images/download.svg) ](https://bintray.com/marlonlom/elapsed_time/elapsed_time/_latestVersion)
 [![Build Status](https://travis-ci.com/marlonlom/elapsed_times.svg?branch=master)](https://travis-ci.com/marlonlom/elapsed_times)
 
 
