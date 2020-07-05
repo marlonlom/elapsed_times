@@ -1,7 +1,7 @@
 package com.github.marlonlom.utilities.elapsed_time
 
 /**
- * Data Class that describes the elapsed time count (in terms of _years,months,days) between two dates.
+ * Data Class that describes the elapsed time count (in terms of years,months,days) between two dates.
  *
  * @author marlonlom
  */
