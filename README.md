@@ -40,8 +40,8 @@ Use it passing two dates, a starting one and the ending one, for obtaining the d
 
 Classes to keep in mind:
 
-**1. TimeCount:** Describes the elapsed time count (in terms of years,months,days) between two dates.
-**2. ElapsedTimes:** The Utility class.
+1. **TimeCount:** Describes the elapsed time count (in terms of years,months,days) between two dates.
+2. **ElapsedTimes:** The Utility class.
 
 ```kotlin
 /* 
@@ -85,7 +85,7 @@ If you like this library, please tell others about it :thumbsup::thumbsup:
 
 <a href="https://twitter.com/intent/tweet?text=Trying%20to%20show%20relative%20date%20time%20texts%3F%20Check%20out%20this%20awesome%20library%20on%20Github%3A%20https://github.com/marlonlom/elapsed_time" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/twitter_icon.png" title="Share on Twitter" width="35" height=35 />
 <a href="https://plus.google.com/share?url=https://github.com/marlonlom/elapsed_time" target="_blank" title="share to G+" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/googleplus_icon.png" target="_blank"  title="Share on Google+" width="35" height=35 />
-<a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/marlonlom/elapsed_time" target="_blank" title="share to facebook" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/facebook_icon.png" title="Share on Facebook" width="35" height=35 />
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/marlonlom/elapsed_time" target="_blank" title="share to facebook" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/facebook_icon.png" title="Share on Facebook" width="35" height=35 /></a>
 
  - Follow me on **Twitter**: [**@Marlonlom**](https://twitter.com/marlonlom)
  - Contact me on **LinkedIn**: [**Marlonlom**](https://co.linkedin.com/in/marlonlom)
