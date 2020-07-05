@@ -53,6 +53,9 @@ class ElapsedTimes private constructor() {
         fromDate.setTime(from)
         toDate.setTime(to)
         var increment = 0
+        if (fromDate.equals(toDate)) {
+          return TimeCount(parts)  
+        }
         if (!fromDate.before(toDate)) {
           throw IllegalArgumentException("Start date must not be after the end date.")
         }
