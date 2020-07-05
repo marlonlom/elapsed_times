@@ -84,7 +84,7 @@ task("writeNewPom") {
                     }
                 }
             }
-        }.writeTo("${buildDir}/poms/pom.xml")
+        }.writeTo("${buildDir}/poms/${project.name}-1.0.0.pom")
     }
 }
 
