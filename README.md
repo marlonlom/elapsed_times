@@ -1,7 +1,6 @@
 # Elapsed DateTime calculator
  
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.marlonlom/elapsed_time.svg)](http://www.mvnrepository.com/artifact/com.github.marlonlom/elapsed_time)
-![Bintray](https://img.shields.io/bintray/v/marlonlom/ElapsedTimes/elapsed_times)
 [![Build Status](https://travis-ci.com/marlonlom/elapsed_times.svg?branch=master)](https://travis-ci.com/marlonlom/elapsed_times)
 
 
